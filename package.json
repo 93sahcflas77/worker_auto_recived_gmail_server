@@ -1,0 +1,59 @@
+{
+  "name": "advanced-git-hooks-workflow",
+  "version": "1.0.0",
+  "description": "advanced-git-hooks-workflow is a production-ready Git automation system that enforces commit standards, code quality, and repository governance using Husky, Commitlint, ESLint, Prettier, and lint-staged. It ensures clean history, automated validation, and CI/CD-friendly workflows for scalable teams and enterprise projects.",
+  "main": "server/server.js",
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier  --write .",
+    "format:check": "prettier --check .",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "dev": "cross-env NODE_ENV=development nodemon server/server.js",
+    "test:test": "nodemon server/src/test.js",
+    "prod": "cross-env NODE_ENV=production node server/server.js",
+    "test": "cross-env NODE_ENV=test node server/server.js",
+    "swagger:gen": "node server/src/config/swagger/swagger.docs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/93sahcflas77/advanced-git-hooks-workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/93sahcflas77/advanced-git-hooks-workflow/issues"
+  },
+  "homepage": "https://github.com/93sahcflas77/advanced-git-hooks-workflow#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.2",
+    "@commitlint/config-conventional": "^20.4.2",
+    "@eslint/js": "^10.0.1",
+    "conventional-changelog-atom": "^5.0.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "@bull-board/api": "^8.0.0",
+    "@bull-board/express": "^8.0.0",
+    "bullmq": "^5.78.0",
+    "dotenv": "^17.3.1",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "googleapis": "^173.0.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.11.1",
+    "minio": "^8.0.7",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "winston": "^3.19.0",
+    "yamljs": "^0.3.0"
+  }
+}

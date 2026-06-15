@@ -1,0 +1,105 @@
+res.send(`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth Success</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Inter, Arial, sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#f5f7fb;
+        }
+
+        .card{
+            width:100%;
+            max-width:500px;
+            background:#fff;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,.1);
+        }
+
+        .icon{
+            font-size:60px;
+            margin-bottom:20px;
+        }
+
+        h1{
+            color:#16a34a;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#6b7280;
+            margin-bottom:15px;
+            line-height:1.6;
+        }
+
+        code{
+            background:#f3f4f6;
+            padding:4px 8px;
+            border-radius:6px;
+            color:#2563eb;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 24px;
+            background:#2563eb;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:600;
+        }
+
+        .btn:hover{
+            opacity:.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="icon">
+            🎉
+        </div>
+
+        <h1>Authentication Successful</h1>
+
+        <p>
+            Your Gmail account has been connected successfully.
+        </p>
+
+        <p>
+            OAuth token saved to:
+        </p>
+
+        <p>
+            <code><%= TOKEN_PATH %></code>
+        </p>
+
+        <a href="/" class="btn">
+            Go to Dashboard
+        </a>
+
+    </div>
+
+</body>
+</html>
+`);

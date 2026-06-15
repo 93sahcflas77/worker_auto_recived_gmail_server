@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>Gmail Dashboard</title>
+</head>
+
+<body>
+    <div class="dashboard">
+
+        <div class="header">
+
+            <div class="left">
+
+                <div class="logo">
+                    📧
+                </div>
+
+                <div>
+                    <h1>Gmail API Dashboard</h1>
+
+                    <p>
+                        Enterprise Email Management & Gmail Integration Platform
+                    </p>
+
+                    <div class="badges">
+                        <span>
+                            Environment:
+                            <strong>
+                                <%= process.env.NODE_ENV || "development" %>
+                            </strong>
+                        </span>
+
+                        <span>
+                            API:
+                            <strong>Gmail v1</strong>
+                        </span>
+
+                        <span>
+                            Server:
+                            <strong>Online</strong>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <div class="status">
+                    <!-- <div class="badges" style="margin: 2px;">
+                        <span>OAuth Status</span>
+                    </div> -->
+                    <br>
+
+                    <div class="status-badge <%= hasToken ? 'connected' : 'disconnected' %>">
+                        <%= hasToken ? '🟢 Connected' : '🔴 Not Connected' %>
+                    </div>
+                </div>
+
+                <% if(hasToken && data) { %>
+
+                    <div class="badges">
+
+                        <span style="font-size: medium;">
+                            <%= data.emailAddress %>
+                        </span>
+                        <span style="font-size: medium;">
+                            Total message: <%= data.messagesTotal %>
+                        </span>
+
+                    </div>
+
+                    <% } else { %>
+
+                        <a href="/auth" class="btn-success">
+                            Connect Gmail
+                        </a>
+
+                        <% } %>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
