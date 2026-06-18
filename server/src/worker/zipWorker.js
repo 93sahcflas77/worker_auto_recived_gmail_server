@@ -6,9 +6,10 @@ const zipWorker = new Worker(
     "zipQueue",
     async job => {
         const fileName = job.data.fileName;
-        const bucket = job.data.buckets
+        const bucket = job.data.buckets;
+        const messageId = job.data.messageId
 
-        await driveToMinio({fileName, bucket })
+        await driveToMinio({fileName, bucket, messageId })
     },
     {
         connection: workerConnection,

@@ -33,7 +33,7 @@
 //   messageId: '19ecade0dba6f6f9'
 // }
 
-const { data } = require("./utils/logger");
+// const { data } = require("./utils/logger");
 
 // const { compose } = require("./utils/logger");
 
@@ -106,36 +106,36 @@ const { data } = require("./utils/logger");
 //   }
 // }
 
-const 
-const jobData = {
-    buckets: 'chandan',
-    messageId: '19ecb4b2d2a4a161',
-    attachements: [
-        {
-            fileName: 'kabina.PNG',
-            data: '',
-            mimeType: 'image/png',
-            size: 29123
-        },
-        {
-            fileName: 'prometus.PNG',
-            data: "",
-            mimeType: 'image/png',
-            size: 19192
-        },
-        {
-            fileName: 'ui.PNG',
-            mimeType: 'image/png',
-            size: 11609
-        },
-        {
-            fileName: 'system123.png',
-            data: "",
-            mimeType: 'image/png',
-            size: 98757
-        }
-    ],
-}
+// const 
+// const jobData = {
+//     buckets: 'chandan',
+//     messageId: '19ecb4b2d2a4a161',
+//     attachements: [
+//         {
+//             fileName: 'kabina.PNG',
+//             data: '',
+//             mimeType: 'image/png',
+//             size: 29123
+//         },
+//         {
+//             fileName: 'prometus.PNG',
+//             data: "",
+//             mimeType: 'image/png',
+//             size: 19192
+//         },
+//         {
+//             fileName: 'ui.PNG',
+//             mimeType: 'image/png',
+//             size: 11609
+//         },
+//         {
+//             fileName: 'system123.png',
+//             data: "",
+//             mimeType: 'image/png',
+//             size: 98757
+//         }
+//     ],
+// }
 
 
 // await client.putObject(
@@ -149,8 +149,184 @@ const jobData = {
 // )
 
 
-const all = jobData.attachements.map( async (v) => {
-    await client
-})
+// const all = jobData.attachements.map( async (v) => {
+//     await client
+// })
 
-console.log(all);
+// console.log(all);
+
+// const { client } = require("./config/minio");
+// const axios = require("axios")
+
+// const fun = async ({bucketName, filename}) => {
+
+//     const exists = await client.bucketExists(bucketName);
+//     const objectExits = await client.statObject(bucketName, filename);
+
+//     if (!exists) {
+//         console.log("Bucket does not exist");
+//     }
+
+//     const stream = await client.getObject(
+//         bucketName,
+//         filename
+//     )
+
+//     const response = await axios.post(
+//         "http://localhost:8042/instances",
+//         stream,
+//         {
+//             headers: {
+//                 "Content-Type": "application/zip"
+//             },
+//             maxBodyLength: Infinity,
+//             maxContentLength: Infinity
+//         }
+//     )
+
+//     const orthancPatientId = response.data[0].ParentPatient;
+//     const orthancStudyId = response.data[0].ParentStudy;
+
+//     const patient = await axios.get(`http://localhost:8042/patients/${orthancPatientId}`);
+//     console.log(`patient: ${JSON.stringify(patient.data, null, 2)}`);
+
+//     const study = await axios.get(`http://localhost:8042/studies/${orthancStudyId}`)
+//     console.log(`study: ${JSON.stringify(study.data, null, 2)}`);
+
+
+//     const seriesId = study.data.Series[0];
+//     const series = await axios.get(`http://localhost:8042/series/${seriesId}`);
+//     const modality = series.data.MainDicomTags.Modality;
+
+//     const studyData = {
+//         patientId: patient.data.MainDicomTags.PatientID,
+//         patientName: patient.data.MainDicomTags.PatientName,
+//         orthancPatientId: orthancPatientId,
+//         orthancStudyId: orthancStudyId,
+//         studyInstanceUID: study.data.MainDicomTags.StudyInstanceUID,
+//         modality: modality,
+//         downloadUrl:  `http://localhost:8042/studies/${orthancStudyId}/archive`,
+//         viewerUrl:  `http://localhost:8042/ohif/viewer?StudyInstanceUIDs=${study.data.MainDicomTags.StudyInstanceUID}`
+//     }
+
+// }
+
+// fun();
+
+
+// methis one
+
+// patient: {
+//   "ID": "eac99046-23bba9b0-3ee9ce1c-1f077db1-4d83a446",
+//   "IsStable": true,
+//   "Labels": [],
+//   "LastUpdate": "20260618T095714",
+//   "MainDicomTags": {
+//     "PatientBirthDate": "19760615",
+//     "PatientID": "VHPL26090006508",
+//     "PatientName": "NIMMA BAI",
+//     "PatientSex": "F"
+//   },
+//   "Studies": [
+//     "f33d256b-56411f5e-eb07c5a3-86ad08db-f7356705"
+//   ],
+//   "Type": "Patient"
+// }
+// study: {
+//   "ID": "f33d256b-56411f5e-eb07c5a3-86ad08db-f7356705",
+//   "IsStable": true,
+//   "Labels": [],
+//   "LastUpdate": "20260618T095714",
+//   "MainDicomTags": {
+//     "AccessionNumber": "N260900650852",
+//     "InstitutionName": "District hospital Narsinghpur.",
+//     "ReferringPhysicianName": "DR BRAJESH MBBS",
+//     "StudyDate": "20260615",
+//     "StudyDescription": "01_Abdomen_Plain(Adult)",
+//     "StudyID": "N260900650852",
+//     "StudyInstanceUID": "1.2.826.1.3680043.9.5282.150415.26090006508.260900650852",
+//     "StudyTime": "190129.926569"
+//   },
+//   "ParentPatient": "eac99046-23bba9b0-3ee9ce1c-1f077db1-4d83a446",
+//   "PatientMainDicomTags": {
+//     "PatientBirthDate": "19760615",
+//     "PatientID": "VHPL26090006508",
+//     "PatientName": "NIMMA BAI",
+//     "PatientSex": "F"
+//   },
+//   "Series": [
+//     "dc126fd1-bc86f05b-d115aa00-59013426-1f087a7f",
+//     "6d8fc995-1390f97b-5b16e431-29a63693-d10235f9",
+//     "916c51c0-8bd809a7-eca962d6-3b211483-26eee6d1"
+//   ],
+//   "Type": "Study"
+// }
+
+
+
+// const stream = await client.getObject(
+//     bucketName,
+//     file.name
+// )
+
+
+// const res = await axios.post(
+//     "http://localhost:8042/instances",
+//     stream,
+//     {
+//         headers: {
+//             "Content-Type": "application/zip"
+//         },
+//         maxBodyLength: Infinity,
+//         maxContentLength: Infinity
+//     }
+// );
+
+
+
+// console.log(res)
+
+
+
+const { connectDB } = require("./config/db")
+const Study = require("./models/study.model");
+const mongoose = require("mongoose");
+
+const recived = async () => {
+
+    await connectDB();
+
+    await mongoose.connect(`${process.env.MONGO_URI}`);
+
+    const messageID = "19edabd0400ac22f";
+    const emailDataId = "19edabd0400ac22f";
+    const studyDescriptin = "ONLY ORBITS";
+    const subject = "ONLY ORBITS NCCT BRAIN ORBITS CT PLAIN h/o headche eye side week";
+    const from = "Chandan Thakur <chandan7073251686@gmail.com>";
+    const to = "tony stak <stak7085@gmail.com>";
+    const date = "Thu, 18 Jun 2026 18:07:50 +0530";
+    const snippet = "VHPL26220004941_CT_ANEETAYADAV.zip VHPL26380005131_CT_DIVYANSHI.zip";
+
+    console.log("Mongo State:", mongoose.connection.readyState);
+
+    const data = await Study.findOneAndUpdate(
+        { messageId: messageID },
+        {
+            $set: {
+                hospitalName: from,
+                clinicalHistory: subject,
+                arrivalTime: date,
+                studyDescriptin
+            }
+        }
+    );
+
+    console.log(data[0]);
+
+
+
+}
+
+recived()
+
+// module.exports = recived

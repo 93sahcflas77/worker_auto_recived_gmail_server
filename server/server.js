@@ -2,7 +2,7 @@ const config = require('./src/config/env');
 const logger = require('./src/utils/logger');
 const app = require('./src/app');
 const { checkconnection } = require("../server/src/config/minio");
-// require("../server/src/utils/drive")
+const { connectDB } = require("./src/config/db")
 
 require("./src/worker/attachementWorker");
 require("./src/worker/recivedWorker");
@@ -12,6 +12,7 @@ const startServer = async () => {
   try {
 
     await checkconnection();
+    await connectDB();
 
     app.listen(config.port, () => {
       logger.info(`Server running in ${config.nodeEnv} mode on port ${config.port}`);

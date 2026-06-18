@@ -8,6 +8,7 @@ module.exports = {
   port: process.env.PORT,
   nodeEnv: process.env.NODE_ENV,
   baseUrl: process.env.BASE_URL,
+  mongoUri: process.env.MONGO_URI,
   REDIS: {
     redisHost: process.env.REDIS_HOST,
     redisPort: process.env.REDIS_PORT

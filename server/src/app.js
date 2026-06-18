@@ -47,6 +47,7 @@ app.use(
 );
 
 app.use("/", require("./routes/gmailAuth.routes"))
+app.use("/", require("./routes/studies.route"))
 
 
 module.exports = app;

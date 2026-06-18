@@ -1,15 +1,17 @@
 const { getDriveClient } = require("../config/googleapis");
+const minioToOrthancToMongodb = require("../utils/minioToOrthancToMongo");
 const { client } = require("../config/minio");
+const axios = require("axios")
 
-module.exports = async ({fileName, bucket}) => {
+module.exports = async ({ fileName, bucket, messageId }) => {
 
     const drive = await getDriveClient();
 
     const bucketName = bucket
-    .replace(/\s*<.*?>/, '') // remove email
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, '-');
+        .replace(/\s*<.*?>/, '') // remove email
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, '-');
 
     const files = fileName.match(/\S+\.[a-z0-9]+/gi) || [];
 
@@ -33,6 +35,7 @@ module.exports = async ({fileName, bucket}) => {
             }
 
             const file = response.data.files[0];
+            const file_name = file.name
 
             const download = await drive.files.get({
                 fileId: file.id,
@@ -45,13 +48,14 @@ module.exports = async ({fileName, bucket}) => {
 
             await client.putObject(
                 bucketName,
-                file.name,
+                file_name,
                 download.data,
                 {
-                    "Content-Type":
-                        file.mimeType
+                    "Content-Type": file.mimeType
                 }
             )
+
+            await minioToOrthancToMongodb({bucketName, file_name, messageId })
 
         })
     )
