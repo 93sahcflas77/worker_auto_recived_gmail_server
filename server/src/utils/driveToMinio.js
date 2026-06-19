@@ -5,6 +5,8 @@ const axios = require("axios")
 
 module.exports = async ({ fileName, bucket, messageId }) => {
 
+    console.log(`driveToMinio starting ..........`)
+
     const drive = await getDriveClient();
 
     const bucketName = bucket
@@ -13,7 +15,11 @@ module.exports = async ({ fileName, bucket, messageId }) => {
         .toLowerCase()
         .replace(/\s+/g, '-');
 
-    const files = fileName.match(/\S+\.[a-z0-9]+/gi) || [];
+    console.log(`bucketName: ${bucketName}`)
+
+    const files = fileName.match(/[A-Za-z0-9_-]+\s\d+\.zip/);
+
+    console.log(`files: ${files}`)
 
     const exists = await client.bucketExists(bucketName);
 
@@ -55,7 +61,11 @@ module.exports = async ({ fileName, bucket, messageId }) => {
                 }
             )
 
+            console.log("file upload a minio");
+
             await minioToOrthancToMongodb({bucketName, file_name, messageId })
+
+            console.log(`driveToMinio end ..........`)
 
         })
     )

@@ -2,12 +2,20 @@ const axios = require("axios");
 const Study = require("../models/study.model")
 module.exports =  async ({bucketName, file_name, messageId}) => {
 
+    console.log(`minitoToOrthancToMongo starting  .......`);
+
+    console.log(`bucketName: ${bucketName}`);
+    console.log(`file_name: ${file_name}`);
+    console.log(`messageId: ${messageId}`);
+
     const exists = await client.bucketExists(bucketName);
     const objectExits = await client.statObject(bucketName, file_name);
 
     if (!exists) {
         console.log("Bucket does not exist");
     }
+
+    console.log(`objectExits: ${objectExits}`)
 
     const stream = await client.getObject(
         bucketName,
@@ -25,6 +33,9 @@ module.exports =  async ({bucketName, file_name, messageId}) => {
             maxContentLength: Infinity
         }
     )
+    console.log(`result: ${response}`);
+
+    console.log("upload a file orthanc");
 
     const orthancPatientId = response.data[0].ParentPatient;
     const orthancStudyId = response.data[0].ParentStudy;
@@ -48,15 +59,17 @@ module.exports =  async ({bucketName, file_name, messageId}) => {
         viewerUrl:  `http://localhost:8042/ohif/viewer?StudyInstanceUIDs=${study.data.MainDicomTags.StudyInstanceUID}`
     }
 
-    await Study.create({
-        messageId,
-        patientId: studyData.patientId,
-        patientName: studyData.patientName,
-        orthancPatientId: studyData.orthancPatientId,
-        orthancStudyId: studyData.orthancStudyId,
-        studyInstanceUID: studyData.studyInstanceUID,
-        modality: studyData.modality,
-        downloadUrl: studyData.downloadUrl,
-        viewerUrl: studyData.viewerUrl
-    })
+    console.log(studyData);
+
+    // await Study.create({
+    //     messageId,
+    //     patientId: studyData.patientId,
+    //     patientName: studyData.patientName,
+    //     orthancPatientId: studyData.orthancPatientId,
+    //     orthancStudyId: studyData.orthancStudyId,
+    //     studyInstanceUID: studyData.studyInstanceUID,
+    //     modality: studyData.modality,
+    //     downloadUrl: studyData.downloadUrl,
+    //     viewerUrl: studyData.viewerUrl
+    // })
 }

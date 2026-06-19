@@ -33,6 +33,8 @@
 //   messageId: '19ecade0dba6f6f9'
 // }
 
+
+
 // const { data } = require("./utils/logger");
 
 // const { compose } = require("./utils/logger");
@@ -288,45 +290,70 @@
 
 
 
-const { connectDB } = require("./config/db")
-const Study = require("./models/study.model");
-const mongoose = require("mongoose");
+// const { connectDB } = require("./config/db")
+// const Study = require("./models/study.model");
+// const mongoose = require("mongoose");
 
-const recived = async () => {
+// const recived = async () => {
 
-    await connectDB();
+//     await connectDB();
 
-    await mongoose.connect(`${process.env.MONGO_URI}`);
+//     await mongoose.connect(`${process.env.MONGO_URI}`);
 
-    const messageID = "19edabd0400ac22f";
-    const emailDataId = "19edabd0400ac22f";
-    const studyDescriptin = "ONLY ORBITS";
-    const subject = "ONLY ORBITS NCCT BRAIN ORBITS CT PLAIN h/o headche eye side week";
-    const from = "Chandan Thakur <chandan7073251686@gmail.com>";
-    const to = "tony stak <stak7085@gmail.com>";
-    const date = "Thu, 18 Jun 2026 18:07:50 +0530";
-    const snippet = "VHPL26220004941_CT_ANEETAYADAV.zip VHPL26380005131_CT_DIVYANSHI.zip";
+//     const messageID = "19edabd0400ac22f";
+//     const emailDataId = "19edabd0400ac22f";
+//     const studyDescriptin = "ONLY ORBITS";
+//     const subject = "ONLY ORBITS NCCT BRAIN ORBITS CT PLAIN h/o headche eye side week";
+//     const from = "Chandan Thakur <chandan7073251686@gmail.com>";
+//     const to = "tony stak <stak7085@gmail.com>";
+//     const date = "Thu, 18 Jun 2026 18:07:50 +0530";
+//     const snippet = "VHPL26220004941_CT_ANEETAYADAV.zip VHPL26380005131_CT_DIVYANSHI.zip";
 
-    console.log("Mongo State:", mongoose.connection.readyState);
+//     console.log("Mongo State:", mongoose.connection.readyState);
 
-    const data = await Study.findOneAndUpdate(
-        { messageId: messageID },
-        {
-            $set: {
-                hospitalName: from,
-                clinicalHistory: subject,
-                arrivalTime: date,
-                studyDescriptin
-            }
-        }
-    );
+//     const data = await Study.findOneAndUpdate(
+//         { messageId: messageID },
+//         {
+//             $set: {
+//                 hospitalName: from,
+//                 clinicalHistory: subject,
+//                 arrivalTime: date,
+//                 studyDescriptin
+//             }
+//         }
+//     );
 
-    console.log(data[0]);
+//     console.log(data[0]);
 
 
 
-}
+// }
 
-recived()
+// recived()
 
 // module.exports = recived
+
+
+const NameArray = [
+    {
+        fileName: "ffgfgfg.png"
+    },
+    {
+        fileName: "chandan.zip"
+    },
+    {
+        fileName: "chandan.png"
+    },
+    {
+        fileName: "ggfgfgf.jpg"
+    }
+]
+
+const abc = NameArray.map(v => {
+    if(v.fileName.endsWith(".zip")){
+        return v.fileName
+    }
+})
+
+console.log(abc.toString().replaceAll(",", ""))
+

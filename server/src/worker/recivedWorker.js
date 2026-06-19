@@ -5,9 +5,14 @@ const workerConnection = require("../config/redisIo");
 const recivedWorker = new Worker(
     "recivedQueue",
     async job => {
+
+        console.log(`recvedWorker start .......`)
+
         const data = job.data
         // await recived(data);
         console.log(data);
+
+        console.log(`recvedWorker end .......`)
     },
     {
         connection: workerConnection,
