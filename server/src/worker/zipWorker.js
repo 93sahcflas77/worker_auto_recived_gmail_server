@@ -1,24 +1,20 @@
 const { Worker } = require("bullmq")
 const workerConnection = require("../config/redisIo");
+const driveToOthanc = require("../utils/driveToOrthanc");
 const driveToMinio = require("../utils/driveToMinio")
 
 const zipWorker = new Worker(
     "zipQueue",
     async job => {
 
-        console.log(`zipWorker start ......`)
 
         const fileName = job.data.fileName;
         const bucket = job.data.buckets;
         const messageId = job.data.messageId
 
-        console.log(`fileName: ${fileName}`);
-        console.log(`bucket: ${bucket}`);
-        console.log(`messageId: ${messageId}`);
+        await driveToOthanc({fileName, bucket, messageId })
 
-        await driveToMinio({fileName, bucket, messageId })
-
-        console.log(`zipWorker start ......`)
+        await driveToMinio({ fileName, bucket, messageId });
     },
     {
         connection: workerConnection,

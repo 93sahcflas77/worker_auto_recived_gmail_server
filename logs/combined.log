@@ -7074,3 +7074,1229 @@
 {"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-19 14:17:41"}
 {"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-19 14:17:41"}
 {"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-19 14:17:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:17:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:17:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:24:22"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:24:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:24:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:24:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:24:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:24:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:24:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:24:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:24:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:24:38"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:25:11"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:25:54"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:25:54"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:25:54"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:25:54"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:25:55"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:25:55"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:25:55"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:25:55"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:26:01"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:26:02"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:26:06"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:26:06"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:26:06"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:26:07"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:26:07"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:26:07"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:26:07"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:26:07"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:26:36"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:27:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:37"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:51"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:51"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:51"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:51"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:52"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:52"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:52"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:52"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:54"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:28:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:29:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:30:03"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:31:14"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:31:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:32:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:32:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:32:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:32:47"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:32:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:32:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:32:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:32:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:34:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:37:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:37:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:38:01"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:40:32"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:40:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:40:34"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:41:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:41:37"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:50:11"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:51:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:51:39"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:51:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:51:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:51:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:51:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:51:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:51:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:51:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:51:51"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:56"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:51:58"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:52:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:52:07"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 13:56:04"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-22 13:58:12"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-22 13:58:12"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:00:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:00:45"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:00:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:01:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:03:06"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:03:09"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:03:44"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:03:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:03:57"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:04:05"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:04:17"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:01"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:10"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:34"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:38"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:05:50"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-22 14:07:33"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:08:39"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:10:17"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:12:17"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:12:17"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:12:17"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:12:17"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:12:18"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:12:18"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:12:18"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:12:18"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:12:27"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:12:33"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:18:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:18:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:21:34"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:21:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:21:52"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:21:58"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:21:58"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:21:58"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:21:59"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:21:59"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:21:59"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:21:59"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:21:59"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:22:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:26:36"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:26:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-22 14:27:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:04:20"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:49:31"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 06:52:06"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:56:32"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:58:40"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:58:44"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:58:45"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:59:05"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 06:59:10"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:01:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:01:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:01:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:01:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:01:01"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:01:01"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:01:01"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:01:01"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:02:53"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:06:50"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:08:27"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:08:27"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:08:39"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:08:39"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:08:54"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:45"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:45"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:45"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:51"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:51"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:24:51"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:26:02"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:30:23"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:30:24"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:30:24"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:30:24"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:30:25"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:30:25"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:30:25"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:30:25"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:33:07"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:33:07"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:33:07"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:33:58"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:34:15"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:34:50"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:37:38"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:38:04"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:38:26"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:39:17"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:42:13"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:44:48"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:51:03"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:55:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:55:16"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:55:16"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:55:16"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:55:17"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:55:17"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:55:17"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:55:17"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:58:06"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:58:06"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 07:58:06"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:58:40"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:58:44"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:58:47"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:58:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:58:59"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 07:59:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 07:59:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:01:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:01:56"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:01:57"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:03:51"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:03:55"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:04:15"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:04:26"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:04:30"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:04:33"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:05:26"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:05:27"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:05:31"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:05:32"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 08:05:58"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 08:05:59"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 08:11:17"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 08:11:30"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 08:11:49"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 08:11:49"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 09:00:05"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 09:00:06"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 09:00:16"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:34:59"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:34:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:34:59"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:34:59"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:35:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:35:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:35:00"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:35:00"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:35:09"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:35:10"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:35:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:35:30"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:35:49"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:35:49"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:35:49"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:35:49"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:35:50"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:35:50"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:35:50"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:35:50"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:36:26"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:36:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:36:43"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:40:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:42:31"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:43:50"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:43:50"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:43:50"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:43:50"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:43:51"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:43:51"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:43:51"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:43:51"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:45:26"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:45:33"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:45:54"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:45:55"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:47:42"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:47:58"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:48:28"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:48:29"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:49:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:50:32"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:50:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:50:41"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:50:51"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:50:52"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:52:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:52:22"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:53:55"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:53:56"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:54:14"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:54:28"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:54:28"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:54:28"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:54:29"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:54:29"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:54:29"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:54:29"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:54:29"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:55:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:55:04"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:55:17"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:55:17"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:55:17"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:55:18"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:55:18"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:55:18"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:55:18"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:55:18"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:55:30"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:55:40"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 11:56:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:03:34"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:05:00"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:07:57"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:09:35"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:14:19"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:14:36"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:14:36"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:14:36"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:14:37"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:14:37"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:14:37"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:14:37"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:14:37"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:14:45"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:16:19"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:17:16"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:18:18"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:18:21"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:18:25"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:18:35"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:18:45"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:18:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:18:46"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:19:10"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:19:12"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:19:47"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:20:39"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:21:33"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:21:33"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:21:33"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:21:33"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:21:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:21:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:21:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:21:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:23:24"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:32:46"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:29"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:30"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:30"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:35"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:35"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:33:35"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:35:17"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"MinIO connection failed connect ECONNREFUSED 127.0.0.1:9000","port":9000,"service":"api-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:9000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)","syscall":"connect","timestamp":"2026-06-23 12:48:56"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:49:59"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:55:30"}
+{"level":"warn","message":"Redis reconnect attempt #1. Retrying in 100ms","service":"api-service","timestamp":"2026-06-23 12:55:36"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 12:59:03"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 12:59:04"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 13:02:50"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 13:03:34"}
+{"level":"info","message":"Redis connection established","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"MinIO connected successfully","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"Connecting to MongoDB...","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"URI: mongodb://127.0.0.1:27017/chandan","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"MongoDB Connected Successfully!","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"Host: 127.0.0.1","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"Database: chandan\n","service":"api-service","timestamp":"2026-06-23 13:04:39"}
+{"level":"info","message":"Server running in development mode on port 3001","service":"api-service","timestamp":"2026-06-23 13:04:39"}

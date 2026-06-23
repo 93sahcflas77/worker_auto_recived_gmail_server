@@ -1,11 +1,8 @@
 const { getDriveClient } = require("../config/googleapis");
-const minioToOrthancToMongodb = require("../utils/minioToOrthancToMongo");
 const { client } = require("../config/minio");
 const axios = require("axios")
 
 module.exports = async ({ fileName, bucket, messageId }) => {
-
-    console.log(`driveToMinio starting ..........`)
 
     const drive = await getDriveClient();
 
@@ -15,11 +12,34 @@ module.exports = async ({ fileName, bucket, messageId }) => {
         .toLowerCase()
         .replace(/\s+/g, '-');
 
-    console.log(`bucketName: ${bucketName}`)
+    const files = fileName.split(" ");
+    const index = files.findIndex(v => v.toLowerCase().endsWith(".zip"));
+    const result = [];
 
-    const files = fileName.match(/[A-Za-z0-9_-]+\s\d+\.zip/);
+    if (index > 0) {
+        let file = files[index];
 
-    console.log(`files: ${files}`)
+        let fileCheck = await drive.files.list({
+            q: `name='${file}' and trashed=false`,
+            fields: "files(id,name,mimeType,size)"
+        });
+
+        // Not found, try previous token + zip
+        if (!fileCheck.data.files.length) {
+            file = `${files[index - 1]} ${file}`;
+
+            fileCheck = await drive.files.list({
+                q: `name='${file}' and trashed=false`,
+                fields: "files(id,name,mimeType,size)"
+            });
+        }
+
+        if (fileCheck.data.files.length) {
+            result.push(fileCheck.data.files[0].name);
+        } else {
+            console.log("File not found");
+        }
+    }
 
     const exists = await client.bucketExists(bucketName);
 
@@ -29,7 +49,7 @@ module.exports = async ({ fileName, bucket, messageId }) => {
 
     await Promise.all(
 
-        files.map(async (fileName) => {
+        result.map(async (fileName) => {
             const response = await drive.files.list({
                 q: `name='${fileName}'`,
                 fields: "files(id,name,mimeType,size)"
@@ -60,12 +80,6 @@ module.exports = async ({ fileName, bucket, messageId }) => {
                     "Content-Type": file.mimeType
                 }
             )
-
-            console.log("file upload a minio");
-
-            await minioToOrthancToMongodb({bucketName, file_name, messageId })
-
-            console.log(`driveToMinio end ..........`)
 
         })
     )
