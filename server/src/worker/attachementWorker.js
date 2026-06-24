@@ -11,7 +11,7 @@ const attachementWorker = new Worker(
         const attachement = job.data.attachements;
         const messageId = job.data.messageId;
 
-        await attachementToMinio({bucket, attachement, messageId})
+        await attachementToOrthanc({bucket, attachement, messageId})
         
     },
     {
