@@ -1,174 +1,155 @@
-const axios = require("axios");
 const path = require("path");
 const fs = require("fs");
-const { client } = require("../config/minio");
-const Study = require("../models/study.model");
-const extractRarBuffer = require("./extractRarBuffer");
-const getAllFiles = require("./getAllFiles");
+const config = require("../config/env");
+const helper = require("./helper");
+const { imageToDicom, pdfToDicom, updateDicomMetaData, validate } = require("./convertDicom");
+
+const outPutDir = "/home/tony/worker_auto_recived_gmail_server/tmp";
 
 module.exports = async ({ bucket, attachement, messageId }) => {
 
-    await Promise.all(
+        await Promise.all(
         attachement.map(async (v) => {
 
-            if (v.fileName.endsWith(".rar")) {
+            if (v.fileName.toLowerCase().endsWith(".rar")) {
 
-                const rarBuffer = Buffer.from(v.data.replace(/-/g, "+").replace(/_/g, "/"), "base64")
+                const mb = v.size / (1024 * 1024);
 
-                const tempRarPath = path.join("/tmp", `${Date.now()}.rar`);
-                const outputDir = path.join("/tmp", `extract-${Date.now()}`);
-                console.log(`outputDir: ${outputDir}`);
+                if (mb.toFixed(2) < 10) {
+                    const raraBuffer = Buffer.from(v.data.replace(/-/g, "+").replace(/_/g, "/"), "base64");
+                    const file_name = v.fileName;
+                    const mimeType = v.mimeType;
 
-                await extractRarBuffer(rarBuffer, tempRarPath, outputDir);
+                    await helper.extractRarBuffer(raraBuffer);
 
-                const file = await fs.readdirSync(outputDir, {
-                    recursive: true
-                })
-                // const files = await getAllFiles(outputDir);
-                console.log(`files: ${files}`)
-
-                const result = await Promise.all(
-                    files.map(async (filePath) => {
-
-
-                        const file = path.join(outputDir, filePath);
-                        const dicomBuffer = fs.readFileSync(file);
-
-                        const response = await axios.post(
-                            "http://localhost:8042/instances",
-                            dicomBuffer,
-                            {
-                                headers: {
-                                    "Content-Type": "application/dicom"
-                                },
-                                maxBodyLength: Infinity,
-                                maxContentLength: Infinity
-                            }
-                        )
-
-                        return response.data
-
-
+                    const files = await fs.readdirSync(config.rarExtractOutputDir, {
+                        recursive: true
                     })
 
-                )
+                    await Promise.all(
+                        files.map(async (filePath) => {
 
-                fs.rmSync(outputDir, {
-                    recursive: true,
-                    force: true
-                })
+                            const file = path.join(this.outPutDir, filePath);
 
-                fs.unlinkSync(tempRarPath);
+                            const ext = path.extname(file).toLowerCase();
+                            let dicomfile = file;
 
-                console.log(result);
+                            if (ext === ".png" || ext === ".jpg" || ext === ".jpeg") {
+                                dicomfile = file.replace(ext, ".dcm");
 
-                // const orthancPatientId = result.data[0].ParentPatient;
-                // const orthancStudyId = result.data[0].ParentStudy;
+                                await imageToDicom(file, dicomfile);
+                            } else if (ext === ".pdf") {
+                                dicomfile = file.replace(ext, ".dcm");
 
-                // const patient = await axios.get(`http://localhost:8042/patients/${orthancPatientId}`);
+                                await pdfToDicom(file, dicomfile);
+                            } else if (ext === ".dcm") {
+                                return;
+                            }
 
-                // const study = await axios.get(`http://localhost:8042/studies/${orthancStudyId}`)
+                            await updateDicomMetaData(dicomfile, v.fileName);
 
-                // const seriesId = study.data.Series[0];
-                // const series = await axios.get(`http://localhost:8042/series/${seriesId}`);
-                // const modality = series.data.MainDicomTags.Modality;
+                            await validate(dicomfile);
 
-                // const studyData = {
-                //     patientId: patient.data.MainDicomTags.PatientID,
-                //     patientName: patient.data.MainDicomTags.PatientName,
-                //     orthancPatientId: orthancPatientId,
-                //     orthancStudyId: orthancStudyId,
-                //     studyInstanceUID: study.data.MainDicomTags.StudyInstanceUID,
-                //     modality: modality,
-                //     downloadUrl: `http://localhost:8042/studies/${orthancStudyId}/archive`,
-                //     viewerUrl: `http://localhost:8042/ohif/viewer?StudyInstanceUIDs=${study.data.MainDicomTags.StudyInstanceUID}`
-                // }
+                            const buffer = fs.readFileSync(dicomfile);
 
-                // console.log(studyData);
+                            const upload = await helper.uploadDicomOrthanc(buffer);
 
-                // await Study.create({
-                //     messageId,
-                //     patientId: studyData.patientId,
-                //     patientName: studyData.patientName,
-                //     orthancPatientId: studyData.orthancPatientId,
-                //     orthancStudyId: studyData.orthancStudyId,
-                //     studyInstanceUID: studyData.studyInstanceUID,
-                //     modality: studyData.modality,
-                //     downloadUrl: studyData.downloadUrl,
-                //     viewerUrl: studyData.viewerUrl
-                // })
+                            const studyData = await helper.orthancPatientDataFetch(upload);
 
-            }
+                            await helper.uploadToMongodb(messageId, studyData);
 
-            if (v.fileName.endsWith(".zip")) {
+                            await helper.uploadAttachementTominio(bucket, file_name, raraBuffer, mimeType)
 
-                const buffer = Buffer.from(v.data, "base64")
+                            return;
 
-                const file_name = v.fileName;
-
-                const response = await axios.post(
-                    "http://localhost:8042/instances",
-                    buffer,
-                    {
-                        headers: {
-                            "Content-Type": "application/zip"
-                        },
-                        maxBodyLength: Infinity,
-                        maxContentLength: Infinity
-                    }
-                )
-
-                const orthancPatientId = response.data[0].ParentPatient;
-                const orthancStudyId = response.data[0].ParentStudy;
-
-                const patient = await axios.get(`http://localhost:8042/patients/${orthancPatientId}`);
-
-                const study = await axios.get(`http://localhost:8042/studies/${orthancStudyId}`)
-
-                const seriesId = study.data.Series[0];
-                const series = await axios.get(`http://localhost:8042/series/${seriesId}`);
-                const modality = series.data.MainDicomTags.Modality;
-
-                const studyData = {
-                    patientId: patient.data.MainDicomTags.PatientID,
-                    patientName: patient.data.MainDicomTags.PatientName,
-                    orthancPatientId: orthancPatientId,
-                    orthancStudyId: orthancStudyId,
-                    studyInstanceUID: study.data.MainDicomTags.StudyInstanceUID,
-                    modality: modality,
-                    downloadUrl: `http://localhost:8042/studies/${orthancStudyId}/archive`,
-                    viewerUrl: `http://localhost:8042/ohif/viewer?StudyInstanceUIDs=${study.data.MainDicomTags.StudyInstanceUID}`
+                        })
+                    )
                 }
 
+                const rarBuffer = Buffer.from(v.data.replace(/-/g, "+").replace(/_/g, "/"), "base64");
 
-                await Study.create({
-                    messageId,
-                    patientId: studyData.patientId,
-                    patientName: studyData.patientName,
-                    orthancPatientId: studyData.orthancPatientId,
-                    orthancStudyId: studyData.orthancStudyId,
-                    studyInstanceUID: studyData.studyInstanceUID,
-                    modality: studyData.modality,
-                    downloadUrl: studyData.downloadUrl,
-                    viewerUrl: studyData.viewerUrl
-                })
+                const file_name = v.fileName
+
+                await helper.attachmentToRarExtractToOrthanc(rarBuffer, file_name, messageId, bucket)
 
             }
 
-            const bucketName = bucket.replace(/\s*<.*?>/, '').trim().toLowerCase().replace(/\s+/g, '-');
+            if (v.fileName.toLowerCase().endsWith(".zip")) {
+
+                const mb = v.size / (1024 * 1024);
+
+                if (mb.toFixed(2) < 10) {
+                    const zipBuffer = Buffer.from(v.data, "base64");
+                    const file_name = v.fileName;
+                    const mimeType = v.mimeType;
+
+                    await helper.extractZipBuffer(zipBuffer);
+
+                    const files = await fs.readdirSync(outPutDir, {
+                        recursive: true
+                    })
+
+                    await Promise.all(
+                        files.map(async (filePath) => {
+
+                            const file = path.join(outPutDir, filePath);
+
+                            const ext = path.extname(file).toLowerCase();
+                            let dicomfile = file;
+
+                            if (ext === ".png" || ext === ".jpg" || ext === ".jpeg") {
+                                dicomfile = file.replace(ext, ".dcm");
+
+                                await imageToDicom(file, dicomfile);
+                            } else if (ext === ".pdf") {
+                                dicomfile = file.replace(ext, ".dcm");
+
+                                await pdfToDicom(file, dicomfile);
+                            } else if (ext !== ".dcm") {
+                                dicomfile = file
+                            } 
+
+                            await updateDicomMetaData(dicomfile, v.fileName);
+
+                            await validate(dicomfile);
+
+                            const buffer = fs.readFileSync(dicomfile);
+
+                            const upload = await helper.uploadDicomOrthanc(buffer);
+
+                            const studyData = await helper.orthancPatientDataFetch(upload);
+
+                            await helper.uploadToMongodb(messageId, studyData);
+
+                            await helper.uploadAttachementTominio(bucket, file_name, zipBuffer, mimeType)
+
+                            return;
+
+                        })
+                    )
+                }
+
+                const buffer = Buffer.from(v.data, "base64");
+                const file_name = v.fileName;
+                const mimeType = v.mimeType;
+
+                const upload = await helper.uploadZipOrthanc(buffer);
+
+                const studyData = await helper.orthancPatientDataFetch(upload);
+
+                await helper.uploadToMongodb(messageId, studyData);
+
+                await helper.uploadAttachementTominio(bucket, file_name, buffer, mimeType)
+
+                return;
+
+            }
+
             const buffer = Buffer.from(v.data, "base64")
             const file_name = v.fileName;
+            const mimeType = v.mimeType;
 
-            await client.putObject(
-                bucketName,
-                file_name,
-                buffer,
-                {
-                    "Content-Type":
-                        v.mimeType
-                }
-            )
-
+            await helper.uploadAttachementTominio(bucket, file_name, buffer, mimeType)
 
         })
     )

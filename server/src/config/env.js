@@ -9,6 +9,8 @@ module.exports = {
   nodeEnv: process.env.NODE_ENV,
   baseUrl: process.env.BASE_URL,
   mongoUri: process.env.MONGO_URI,
+  tmpRarPath: process.env.TEMP_RAR_PATH,
+  rarExtractOutputDir: process.env.RAR_EXTRACT_OUTPUT_DIR,
   REDIS: {
     redisHost: process.env.REDIS_HOST,
     redisPort: process.env.REDIS_PORT

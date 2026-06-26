@@ -7,30 +7,24 @@ const studySchema = new mongoose.Schema({
     },
     patientId: {
         type: String,
-        required: true,
         index: true
     },
     patientName: {
         type: String,
-        required: true,
         index: true
     },
     orthancPatientId: {
         type: String,
-        required: true,
     },
     orthancStudyId: {
         type: String,
-        required: true,
     },
     studyInstanceUID: {
         type: String,
-        required: true,
         index: true
     },
     modality: {
         type: String,
-        required: true,
         index: true
     },
     downloadUrl: {
