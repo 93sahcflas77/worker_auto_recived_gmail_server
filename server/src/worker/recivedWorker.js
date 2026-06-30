@@ -1,30 +1,26 @@
-const { Worker } = require("bullmq")
-const workerConnection = require("../config/redisIo");
+const { Worker } = require('bullmq');
+const workerConnection = require('../config/redisIo');
 // const recived = require("../test");
 
 const recivedWorker = new Worker(
-    "recivedQueue",
-    async job => {
-
-
-        const data = job.data
-        // await recived(data);
-        console.log(data);
-
+  'recivedQueue',
+  async (job) => {
+    const data = job.data;
+    // await recived(data);
+    console.log(data);
+  },
+  {
+    connection: workerConnection,
+    lockDuration: 12000,
+    stalledInterval: 5000,
+    maxStalledCount: 2,
+    drainDelay: 5,
+    skipLockRenewal: false,
+    skipStalledCheck: false,
+    metrics: {
+      maxDataPoints: 500,
     },
-    {
-        connection: workerConnection,
-        lockDuration: 12000,
-        stalledInterval: 5000,
-        maxStalledCount: 2,
-        drainDelay: 5,
-        skipLockRenewal: false,
-        skipStalledCheck: false,
-        metrics: {
-            maxDataPoints: 500
-        }
-    }
+  },
+);
 
-)
-
-module.exports = recivedWorker
+module.exports = recivedWorker;

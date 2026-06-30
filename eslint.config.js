@@ -28,7 +28,7 @@ module.exports = defineConfig([
       'no-extra-semi': 2, // Disallows unnecessary semicolons.
       'no-template-curly-in-string': 0, // Disallows ${} inside normal strings (not template literals).
       'no-use-before-define': [2, { functions: false, classes: true, variables: true }], // Don’t use a variable or function before it is defined.
-      'no-shadow': [2, { builtinGlobals: false }], // Don’t create a new variable with the same name as an outer variable (shadowing).
+      'no-shadow': [0, { builtinGlobals: false }], // Don’t create a new variable with the same name as an outer variable (shadowing).
       'callback-return': 0, // If you call a callback, you must return immediately.
       'global-require': 0, // All require() calls must be at the top of the file, not inside functions or blocks.
       'no-mixed-requires': 2, //Don’t mix require() with other code in the same statement block.

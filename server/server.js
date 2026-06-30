@@ -1,16 +1,15 @@
 const config = require('./src/config/env');
 const logger = require('./src/utils/logger');
 const app = require('./src/app');
-const { checkconnection } = require("../server/src/config/minio");
-const { connectDB } = require("./src/config/db")
+const { checkconnection } = require('../server/src/config/minio');
+const { connectDB } = require('./src/config/db');
 
-require("./src/worker/attachementWorker");
-require("./src/worker/recivedWorker");
-require("./src/worker/zipWorker");
+require('./src/worker/attachementWorker');
+require('./src/worker/recivedWorker');
+require('./src/worker/zipWorker');
 
 const startServer = async () => {
   try {
-
     await checkconnection();
     await connectDB();
 
