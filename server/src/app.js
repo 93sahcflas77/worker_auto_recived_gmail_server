@@ -9,7 +9,6 @@ const app = express();
 app.disable('x-powered-by');
 app.set('trust proxy', 1);
 
-
 app.use(
   helmet({
     contentSecurityPolicy: false, //enable later carefully
@@ -17,9 +16,8 @@ app.use(
   }),
 );
 
-
-app.set("views", path.join(__dirname, "views"))
-app.set("view engine", "ejs");
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
 
 app.use(
   '/static',
@@ -46,8 +44,6 @@ app.use(
   }),
 );
 
-app.use("/", require("./routes/gmailAuth.routes"))
-app.use("/", require("./routes/studies.route"))
-
+app.use('/', require('./routes/studies.route'));
 
 module.exports = app;

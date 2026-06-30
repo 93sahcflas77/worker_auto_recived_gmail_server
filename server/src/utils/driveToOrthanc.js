@@ -1,36 +1,46 @@
-const helper = require("./helper");
-const getDriveClient = require("../config/googleapis");
-const config = require("../config/env");
+const helper = require('./helper');
+const getDriveClient = require('./getDriveClient');
+const GoogleTolen = require('../models/googleToken.model');
+const config = require('../config/env');
 
 module.exports = async ({ fileName, bucket, messageId }) => {
+  const accounts = await GoogleTolen.find({ email: config.clientgmail });
 
-    const drive = await getDriveClient();
+  await Promise.all(
+    accounts.map(async (account) => {
+      const drive = await getDriveClient(account.refreshToken);
 
-    const result = await helper.onlyFindFileNameDrive(drive, fileName);
+      const result = await helper.onlyFindFileNameDrive(drive, fileName);
+      console.log(`result: ${result}`);
 
-    await Promise.all(
+      await Promise.all(
+        result.files.map(async (file) => {
+          const fileName = file.name;
+          console.log(`fileName: ${fileName}`);
 
-        result.map(async (fileName) => {
+          if (fileName.toLowerCase().endsWith('.rar')) {
+            const rarBuffer = await helper.fileNameFindDriveToRarArrayBuffer(drive, fileName);
 
-            const download = await helper.fileNameFindDriveToBuffer(drive, fileName);
+            console.log(Buffer.isBuffer(rarBuffer)); // true
 
-            if (fileName.toLowerCase().endsWith(".rar")) {
+            await helper.driveToextractRarToOrthanc(drive, rarBuffer, messageId, bucket, fileName);
 
-                const rarBuffer = download.data
+            return;
+          }
 
-                await helper.driveToextractRarToOrthanc( drive, rarBuffer, messageId, bucket, fileName);
+          const download = await helper.fileNameFindDriveToBuffer(drive, fileName);
 
-                return;
-            }
+          const upload = await helper.uploadZipOrthanc(download.data);
 
-            const upload = await helper.uploadZipOrthanc(download.data);
+          console.log(upload);
 
-            const studyData = await helper.orthancPatientDataFetch(upload);
+          const studyData = await helper.orthancPatientDataFetch(upload);
 
-            await helper.uploadToMongodb(messageId, studyData);
+          await helper.uploadToMongodb(messageId, studyData);
 
-            await helper.uploadZipToMinio(drive, fileName, bucket)
-
-        })
-    )
-}
+          await helper.uploadZipToMinio(drive, fileName, bucket);
+        }),
+      );
+    }),
+  );
+};

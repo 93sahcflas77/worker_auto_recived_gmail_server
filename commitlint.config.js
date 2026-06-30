@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     'type-case': [0, 'always', 'lower-case'],
     'type-enum': [2, 'always', ['feat', 'fix', 'chore', 'docs', 'refactor', 'test', 'build']],
-    'type-empty': [2, 'never'],
+    'type-empty': [0, 'never'],
     'type-max-length': [0, 'always', Infinity],
     'type-min-length': [0, 'always', 3],
 
@@ -39,7 +39,7 @@ module.exports = {
       ['camel-case', 'lower-case', 'sentence-case', 'start-case', 'pascal-case', 'upper-case'],
     ],
     'subject-exclamation-mark': [0, 'never'],
-    'subject-empty': [2, 'never'],
+    'subject-empty': [0, 'never'],
     'subject-full-stop': [0, 'never', '.'],
     'subject-max-length': [0, 'always', 100],
     'subject-min-length': [0, 'always', 5],
